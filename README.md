@@ -33,3 +33,5 @@
   - Use the same primates dataset you used for the RevBayes exercise on gene-tree inference
   - Perform model selection with AIC and BIC in IQTree and record the models they choose
   - Using the model chosen by AIC, estimate the ML tree for these data and perform non-parametric bootstrapping with 200 replicates
+  - Briefly describe the results of your analysis in a text file.
+  - Submit your summary and relevant output files to the homework folder (by placing them in a folder with your name and submitting a pull request).
