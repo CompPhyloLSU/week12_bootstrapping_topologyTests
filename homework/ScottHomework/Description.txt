@@ -1,0 +1,10 @@
+Performing model selection through IQTree finds the best fit model for AIC, AICc, and BIC. AIC and BIC are information criteria which use
+penalties for additional parameters to find the best model. AICc is the correction for small sample sizes for AIC.  AIC and AICc finds the best model 
+to be GTR+F+R4. The model name breaks down as the following:
+GTR - time reversible model with unequal rates of change and base frequencies 
+F - empirical base frequencies 
+R4 - freerate model which relaxes the assumptions of the gamma distribution with four categories 
+
+Once the model has been selected the maximum likelihood tree can be found. Performing bootstrapping with 200 repetitions allows for 
+repeatable trees to be found, which helps find the majority consensus tree. If you compare the unbootstrapped and bootstrapped trees, you 
+will find that taxa will move across the tree. Branch lengths are included. 
