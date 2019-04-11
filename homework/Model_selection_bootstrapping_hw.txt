@@ -1,0 +1,17 @@
+Eamon Corbett
+Model Selection and Bootstrapping Homework
+
+The best model selected using AIC was GTR+F+R4, while the best model selected using
+BIC was TIM2+F+I+G4. These are both among the most complex and parameter-rich models,
+and all of the best supported models could be described as such. The best BIC model was the
+fifth-best (out of 203) using AIC. The least supported model was Jukes-Cantor, followed by
+F81+F, K2P, and K3P, suggesting that many of the simpler models that we are familiar with
+are not sufficient to capture the complexity of the data.
+
+Bootstrap values on the tree vary from 100 down to 31. Many of the nodes without sufficient supported
+are those that were challenging in previous analyses as well: the deep relationships between the four main clades
+(lemurs, tarsiers, lorises, monkeys and apes), the placement of the aye-aye, and some of the other branches
+within lemurs and new world monkeys. Overall the bootstrap gives us a good sense of which nodes are very solid,
+and for which nodes there is not enough data to resolve them. I belive the current thinking is that tarsiers
+are sister to monkeys and apes, which is not the topology we recover, but we also do not recover a well-supported
+topology that conflicts with that. 
