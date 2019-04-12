@@ -1,0 +1,1 @@
+iqtree determined the best models to be TIM2+F+I+G4 for BIC and GTR+F+R4 for AIC. Running an ultrafast bootstrap for GTR+F+R4 found most bootstraps over 70 with a few between 30 and 60. Total tree length was 5.274.
