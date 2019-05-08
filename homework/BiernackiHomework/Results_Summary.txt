@@ -1,0 +1,12 @@
+ModelFinder Plus Results: 
+
+-AIC chose GTR+F+R4
+-BIC chose GTR+F+I+G4
+
+Rest of analysis done with best-fit model chosen with AIC: GTR+F+R4
+
+Had to change 200 replicates into 1000 replicates because I got the following error message when I tried to run with 200 replicates: “#replicates must be >= 1000”
+
+In terms of my tree, most bootstrap values were above 70, with a few exceptions. The node separating "Tarsius_syrichta" from the the galagos, lemurs, and lorises was only 55, with the node separating lemurs from galagos and lorises only 42. The node separating the clade containing "Lepilemur_hubbardorum" from the clade containing "Varecia_variegata" only had bootstrap support of 39.
+
+Weirdly, some of the results seem to be incorrect. For example, "Perodicticus_potto" is in the family Lorisidae, but these results place it with the Galagos (Galagidae). This incorrect node has a bootstrap support of 98. 
