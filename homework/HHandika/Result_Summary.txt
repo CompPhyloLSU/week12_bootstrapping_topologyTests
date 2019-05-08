@@ -1,0 +1,6 @@
+ModelFinder set under BIC setting resulted the most fit model TIM2+F+I+G4.
+Under AIC the most fit model is GTR+F+R4.
+
+Using the model selected under AIC, the maximum likelihood analysis using IQTree revealed strong support for most of the branches. Within the clade, Lorisidae is sister to Lemuroidea with low support (MLBV 30%) and Platyrrhini is sister to Catarrhini with strong support (MLBV 100%). The relationship of Tarsius syrichta to the other species is unresolved (MLBV 41%).
+
+Within Lorisidae, all of the species relationships are strongly supported (MLBV >70%), and follow their family grouping. Within Lemuroidea, Varecia variegata is sister to Lemur catta and Microcebus murinus is sister to Cheirogaleus major. Both of these relationships are strongly supported (MLBV 93% and 97%, respectively). Within Catarrhini, the relationship of all the species also follow their family grouping. All the Cercopithecoidea form a clade with strong support. The relationship of Pan paniscus to Hylobates lar, however, is not strongly supported (MLBV 68%). Within Platyrrhini, Saimiri sciureus is more closely related to Aotus trivirgatus than to Cebus albifrons, although the relationship of Saimiri sciureus to Aotus trivirgatus is not strongly supported (MLBV 67%). The rest of the relationships within Platyrrhini are strongly supported (MLBV >70%).  
