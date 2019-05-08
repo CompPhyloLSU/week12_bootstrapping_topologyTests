@@ -1,0 +1,197 @@
+IQ-TREE 1.6.10 built Feb 19 2019
+
+Input file name: primates_and_galeopterus_cytb.nex
+Type of analysis: tree reconstruction + non-parametric bootstrap (200 replicates)
+Random seed number: 79365
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 1102 nucleotide sites
+Number of constant sites: 451 (= 40.9256% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 451 (= 40.9256% of all sites)
+Number of parsimony informative sites: 568
+Number of distinct site patterns: 647
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R4
+
+Rate parameter R:
+
+  A-C: 3.7147
+  A-G: 11.5150
+  A-T: 2.2665
+  C-G: 0.6092
+  C-T: 19.4328
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2937
+  pi(C) = 0.3151
+  pi(G) = 0.1151
+  pi(T) = 0.2761
+
+Rate matrix Q:
+
+  A   -0.5865    0.2199    0.2491    0.1176
+  C     0.205    -1.226   0.01318     1.008
+  G    0.6355   0.03607   -0.7234   0.05187
+  T    0.1251      1.15   0.02163    -1.297
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.4241,0.01382) (0.2463,0.6368) (0.2809,1.983) (0.0487,5.757)
+
+ Category  Relative_rate  Proportion
+  1         0.01382        0.4241
+  2         0.6368         0.2463
+  3         1.983          0.2809
+  4         5.757          0.0487
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13153.2198 (s.e. 317.7386)
+Unconstrained log-likelihood (without tree): -5638.3455
+Number of free parameters (#branches + #model parameters): 57
+Akaike information criterion (AIC) score: 26420.4396
+Corrected Akaike information criterion (AICc) score: 26426.7729
+Bayesian information criterion (BIC) score: 26705.7178
+
+Total tree length (sum of branch lengths): 5.2729
+Sum of internal branch lengths: 1.2406 (23.5278% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Saimiri_sciureus' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++---------------Saimiri_sciureus
+|
+|     +--------Callicebus_donacophilus
+|  +--| (82)
+|  |  |                     +-----------Hylobates_lar
+|  |  |                  +--| (77)
+|  |  |                  |  +------Pan_paniscus
+|  |  |          +-------| (100)
+|  |  |          |       |      +------------Colobus_guereza
+|  |  |          |       +------| (100)
+|  |  |          |              |  +-------Chlorocebus_aethiops
+|  |  |          |              +--| (97)
+|  |  |          |                 +--------Macaca_mulatta
+|  |  +----------| (100)
+|  |             |          +-------------------Tarsius_syrichta
+|  |             |       +--| (43)
+|  |             |       |  |              +------Galago_senegalensis
+|  |             |       |  |         +----| (100)
+|  |             |       |  |         |    +-------Otolemur_crassicaudatus
+|  |             |       |  |      +--| (93)
+|  |             |       |  |      |  +----------Perodicticus_potto
+|  |             |       |  |  +---| (92)
+|  |             |       |  |  |   |  +----------Loris_tardigradus
+|  |             |       |  |  |   +--| (72)
+|  |             |       |  |  |      +-----------Nycticebus_coucang
+|  |             |       |  +--| (31)
+|  |             |       |     |  +--------------Daubentonia_madagascariensis
+|  |             |       |     +--| (65)
+|  |             |       |        |            +---------------Lepilemur_hubbardorum
+|  |             |       |        |         +--| (64)
+|  |             |       |        |         |  |  +-------------Microcebus_murinus
+|  |             |       |        |         |  +--| (94)
+|  |             |       |        |         |     +-----Cheirogaleus_major
+|  |             |       |        |      +--| (31)
+|  |             |       |        |      |  |   +------------Varecia_variegata_variegata
+|  |             |       |        |      |  +---| (92)
+|  |             |       |        |      |      +------Lemur_catta
+|  |             |       |        +------| (100)
+|  |             |       |               +-------Propithecus_coquereli
+|  |             +-------| (100)
+|  |                     +-----------------------Galeopterus_variegatus
++--| (70)
+|  +----------Cebus_albifrons
+|
++-------Aotus_trivirgatus
+
+Tree in newick format:
+
+(Saimiri_sciureus:0.2451983395,((Callicebus_donacophilus:0.1436269320,(((Hylobates_lar:0.1783679371,Pan_paniscus:0.1134329396)77:0.0456671560,(Colobus_guereza:0.1969749473,(Chlorocebus_aethiops:0.1178976942,Macaca_mulatta:0.1321308450)97:0.0368780046)100:0.1029669143)100:0.1173343690,((Tarsius_syrichta:0.3055209899,((((Galago_senegalensis:0.1048418141,Otolemur_crassicaudatus:0.1193510222)100:0.0748049300,Perodicticus_potto:0.1650141133)93:0.0381479234,(Loris_tardigradus:0.1691024079,Nycticebus_coucang:0.1867341477)72:0.0392532155)92:0.0629631914,(Daubentonia_madagascariensis:0.2296113333,(((Lepilemur_hubbardorum:0.2353862959,(Microcebus_murinus:0.2126955468,Cheirogaleus_major:0.0973565618)94:0.0517792187)64:0.0381219690,(Varecia_variegata_variegata:0.1915176922,Lemur_catta:0.1058751622)92:0.0600623864)31:0.0187619875,Propithecus_coquereli:0.1295492561)100:0.1049534812)65:0.0393193171)31:0.0223037429)43:0.0201769137,Galeopterus_variegatus:0.3606006647)100:0.1267344828)100:0.1696998121)82:0.0441898148,Cebus_albifrons:0.1636006703)70:0.0264916603,Aotus_trivirgatus:0.1279481078);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 200bootstrap trees
+Log-likelihood of consensus tree: -13153.217911
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------Saimiri_sciureus
+|
+|     +--------Callicebus_donacophilus
+|  +--| (82)
+|  |  |                     +-----------Hylobates_lar
+|  |  |                  +--| (77)
+|  |  |                  |  +------Pan_paniscus
+|  |  |          +-------| (100)
+|  |  |          |       |      +------------Colobus_guereza
+|  |  |          |       +------| (100)
+|  |  |          |              |  +-------Chlorocebus_aethiops
+|  |  |          |              +--| (97)
+|  |  |          |                 +--------Macaca_mulatta
+|  |  +----------| (100)
+|  |             |          +-------------------Tarsius_syrichta
+|  |             |       +--| (43)
+|  |             |       |  |              +------Galago_senegalensis
+|  |             |       |  |         +----| (100)
+|  |             |       |  |         |    +-------Otolemur_crassicaudatus
+|  |             |       |  |      +--| (93)
+|  |             |       |  |      |  +----------Perodicticus_potto
+|  |             |       |  |  +---| (92)
+|  |             |       |  |  |   |  +----------Loris_tardigradus
+|  |             |       |  |  |   +--| (72)
+|  |             |       |  |  |      +-----------Nycticebus_coucang
+|  |             |       |  +--| (31)
+|  |             |       |     |  +--------------Daubentonia_madagascariensis
+|  |             |       |     +--| (65)
+|  |             |       |        |            +---------------Lepilemur_hubbardorum
+|  |             |       |        |         +--| (64)
+|  |             |       |        |         |  |  +-------------Microcebus_murinus
+|  |             |       |        |         |  +--| (94)
+|  |             |       |        |         |     +-----Cheirogaleus_major
+|  |             |       |        |      +--| (31)
+|  |             |       |        |      |  |   +------------Varecia_variegata_variegata
+|  |             |       |        |      |  +---| (92)
+|  |             |       |        |      |      +------Lemur_catta
+|  |             |       |        +------| (100)
+|  |             |       |               +-------Propithecus_coquereli
+|  |             +-------| (100)
+|  |                     +-----------------------Galeopterus_variegatus
++--| (70)
+|  +----------Cebus_albifrons
+|
++-------Aotus_trivirgatus
+
+
+Consensus tree in newick format: 
+
+(Saimiri_sciureus:0.2455139687,((Callicebus_donacophilus:0.1437780897,(((Hylobates_lar:0.1785815433,Pan_paniscus:0.1136621443)77:0.0457003171,(Colobus_guereza:0.1972456443,(Chlorocebus_aethiops:0.1180400470,Macaca_mulatta:0.1323319268)97:0.0368913346)100:0.1031503128)100:0.1175036475,((Tarsius_syrichta:0.3061121051,((((Galago_senegalensis:0.1050041142,Otolemur_crassicaudatus:0.1196004630)100:0.0749420640,Perodicticus_potto:0.1653468754)93:0.0382100623,(Loris_tardigradus:0.1694741104,Nycticebus_coucang:0.1871650071)72:0.0392466812)92:0.0630874650,(Daubentonia_madagascariensis:0.2301468127,(((Lepilemur_hubbardorum:0.2360032547,(Microcebus_murinus:0.2131867566,Cheirogaleus_major:0.0975918457)94:0.0518661776)64:0.0381649638,(Varecia_variegata_variegata:0.1919798248,Lemur_catta:0.1061078003)92:0.0601472006)31:0.0187663898,Propithecus_coquereli:0.1298695516)100:0.1051716293)65:0.0393906496)31:0.0222856841)43:0.0201441959,Galeopterus_variegatus:0.3613816858)100:0.1269914784)100:0.1699229286)82:0.0442401819,Cebus_albifrons:0.1637782608)70:0.0264373669,Aotus_trivirgatus:0.1281449405);
+
+TIME STAMP
+----------
+
+Date and time: Wed Apr 10 22:06:42 2019
+Total CPU time used: 25.907714 seconds (0h:0m:25s)
+Total wall-clock time used: 14.03060794 seconds (0h:0m:14s)
+

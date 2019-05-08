@@ -1,0 +1,33 @@
+#I used the tutorial site for help http://www.iqtree.org/doc/Tutorial
+#worked on command line 
+
+
+#First code to see which model fit the best; used AIC suggestion 
+iqtree -s primates_and_galeopterus_cytb.nex -m MFP
+
+#Model Suggestions 
+Akaike Information Criterion:           GTR+F+R4
+Corrected Akaike Information Criterion: GTR+F+R4
+Bayesian Information Criterion:         TIM2+F+I+G4
+Best-fit model: TIM2+F+I+G4 chosen according to BIC
+
+#SecondCode
+
+bin/iqtree -s primates_and_galeopterus_cytb.nex -m GTR+F+R4 -b 200 -nt AUTO
+
+
+#Summary 
+Log-likelihood of the tree: -13153.2198 (s.e. 317.7386)
+Unconstrained log-likelihood (without tree): -5638.3455
+Number of free parameters (#branches + #model parameters): 57
+Akaike information criterion (AIC) score: 26420.4396
+Corrected Akaike information criterion (AICc) score: 26426.7729
+Bayesian information criterion (BIC) score: 26705.7178
+
+Total tree length (sum of branch lengths): 5.2729
+Sum of internal branch lengths: 1.2406 (23.5278% of tree length)
+
+Though I rooted, the unrooted tree seemed to have high bootstrap support at most of the branches.
+Varecia_variegata_variegata  tipped branch had a bootstap support of 31 compared to Propithecus_coquereli tipped branch
+which had bootstap support of 100. 
+
