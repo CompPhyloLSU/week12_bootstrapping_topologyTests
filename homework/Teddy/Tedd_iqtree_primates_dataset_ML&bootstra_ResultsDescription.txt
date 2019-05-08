@@ -1,0 +1,30 @@
+########BIOL7800 Spring 2019
+##Teddy
+#Week12 homework
+
+###Description of ML and bootstrap analyses for primates dataset in iqtree
+#Results
+-I ran my ML analysis on iqtree using this statement:
+$iqtree -s primates_and_galeopterus_cytb.nex -pre ML
+
+iqtree tested 281 models and chose Best-fit model: TIM2+F+I+G4 chosen according to BIC
+for ML analysis. Then after running for a few minutes (2-3 min) it returned
+the log and tree files for that analysis
+
+I observed the ML tree produced on iqtree and looked different than the one created
+in revBayes
+
+-I ran my bootstrap support analysis on iqtree using this statement:
+$iqtree -s ./primates_and_galeopterus_cytb.nex -m TIM2+F+I+G4 -b 200 -pre primates_and_galeopterus_cytb.nex.boot
+*The TIM2+F+I+G4 allowed our bootstrap support analysis to run using the model selected in our previous step 
+using the Bayesian Inference Criterion (BIC)
+
+iqtree ran for about 20 min and returned the log and tree files corresponding to 200 searches using
+a non-parametric bootstrap support search.
+
+The bootstrap support values were in the primates_and_galeopterus_cytb.nex.boot.treefile
+and I was able to observe them in figtree. The lowest support value mapped on the tree was 24
+
+
+
+
